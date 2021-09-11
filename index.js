@@ -1,7 +1,6 @@
 const express = require("express");
-// const bodyParser = require("body-parser");
+
 const cors = require("cors");
-// const corsOptions ={ origin:'*', credentials:true} //access-control-allow-credentials:true optionSuccessStatus:200, }
 const fs = require("fs-extra");
 const fileUpload = require('express-fileupload');
 const MongoClient = require("mongodb").MongoClient;
